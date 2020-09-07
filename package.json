@@ -1,5 +1,5 @@
 {
-  "name": "mean-cloud-cli",
+  "name": "meancloud-cli",
   "version": "1.0.0",
   "description": "Mean Cloud CLI",
   "main": "index.js",
@@ -8,12 +8,21 @@
     "start": "node index.js"
   },
   "author": "Sunil Kumar Samanta",
-  "license": "ISC",
   "dependencies": {
     "cli-spinner": "^0.2.10",
     "inquirer": "^7.3.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mean-cloud/meancloud-cli.git"
+  },
+  "license": "MIT",
+  "private": false,
   "bin": {
     "meancloud-cli": "./index.js"
-  }
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "engineStrict": true
 }
